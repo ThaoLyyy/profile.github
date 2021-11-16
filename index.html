@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>ThaoLyy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="icon-social">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-skype"></i>
+        </div>
+        <img src="./IMG/tl.jpg" alt="">
+        <h2>Thao_Lyy</h2>
+        <p>Hoà Vang, Đà Nẵng</p>
+        <p>Frontend Develope</p>
+        <div class="btn-container">
+            <button>Liên hệ</button>
+            <button>Kết bạn</button>
+        </div>
+    </div>
+    
+</body>
+<script>
+    const imgB = document.querySelector('.container img')
+    imgB.addEventListener("click", function(){
+        this.classList.toggle("active")
+    });
+</script>
+</html>
